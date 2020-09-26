@@ -10,7 +10,8 @@ see: https://github.com/Pierlam/ExpressionEvalSamples
 
 This repository contains a solution with several samples of the ExpressionEval library published on nuget.
 
-Examples of Expressions
+### Examples of Expressions
+
 Expressions are provided as a raw string to the library.
 
 Some examples of expressions you can execute:
