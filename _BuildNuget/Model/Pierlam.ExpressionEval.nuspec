@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>Pierlam.ExpressionEval</id>
-    <version>0.7</version>
+    <version>0.8</version>
     <title>Expression Evaluator Component</title>
     <authors>Pierlam Project</authors>
     <owners>Pierlam Project</owners>
-    <projectUrl>https://pierlamsoftware.com</projectUrl>
+    <projectUrl>https://github.com/Pierlam/ExpressionEval</projectUrl>
     <icon>Pierlam.ExpressionEval.png</icon>
     
     <license type="file">LICENSE.TXT</license>
@@ -24,7 +24,7 @@
     </summary>
     
     <!-- Any details about this particular release -->
-    <releaseNotes>Simplification of errors management with only one error class. Calculation expression can now have several operands and operators.</releaseNotes>
+    <releaseNotes>Now full open-source and free of charge. Web site is: https://github.com/Pierlam/ExpressionEval/.</releaseNotes>
     
     <tags>csharp netstandard dotnet library api expression evaluator eval comparison logical calculation function callback</tags>
 

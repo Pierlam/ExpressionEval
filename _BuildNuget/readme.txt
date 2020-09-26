@@ -13,9 +13,6 @@ To build the nuget package of the application.
 Model\
 The model of files and folders.
 
-Built\  
-	-> Ne sert plus.
-
 
 ================================================================================
 Generate a new nuget package, Process:
