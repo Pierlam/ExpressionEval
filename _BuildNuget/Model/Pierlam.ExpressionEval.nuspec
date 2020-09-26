@@ -17,10 +17,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
     <description>
-      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... See some code samples on: https://github.com/Pierlam/ExpressionEval.
+      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,...
     </description>
     <summary>
-      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... See some code samples on: https://github.com/Pierlam/ExpressionEval.
+      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,...
     </summary>
     
     <!-- Any details about this particular release -->
