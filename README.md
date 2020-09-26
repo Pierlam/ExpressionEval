@@ -4,7 +4,7 @@ ExpressionEval is an Expression Evaluator back-office component. Expression are 
 
 The library on nuget: https://www.nuget.org/packages/Pierlam.ExpressionEval/
 
-
+The component is open-source.
 
 see: https://github.com/Pierlam/ExpressionEvalSamples
 
