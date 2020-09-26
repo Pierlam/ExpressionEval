@@ -6,7 +6,8 @@ The library on nuget: https://www.nuget.org/packages/Pierlam.ExpressionEval/
 
 The component is open-source.
 
-see: https://github.com/Pierlam/ExpressionEvalSamples
+
+To have code samples, see: https://github.com/Pierlam/ExpressionEvalSamples
 
 This repository contains a solution with several samples of the ExpressionEval library published on nuget.
 
