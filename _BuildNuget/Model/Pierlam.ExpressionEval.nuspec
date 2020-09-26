@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Pierlam.ExpressionEval</id>
+    <version>0.7</version>
+    <title>Expression Evaluator Component</title>
+    <authors>Pierlam Project</authors>
+    <owners>Pierlam Project</owners>
+    <projectUrl>https://pierlamsoftware.com</projectUrl>
+    <icon>Pierlam.ExpressionEval.png</icon>
+    
+    <license type="file">LICENSE.TXT</license>
+    <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <description>
+      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... See some code samples on: https://github.com/Pierlam/ExpressionEval.
+    </description>
+    <summary>
+      ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, &lt;&gt;, >, &lt;, &lt;=, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... See some code samples on: https://github.com/Pierlam/ExpressionEval.
+    </summary>
+    
+    <!-- Any details about this particular release -->
+    <releaseNotes>Simplification of errors management with only one error class. Calculation expression can now have several operands and operators.</releaseNotes>
+    
+    <tags>csharp netstandard dotnet library api expression evaluator eval comparison logical calculation function callback</tags>
+
+    
+    <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETFramework4.5" />      
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\Pierlam.ExpressionEval.png" target="" />
+    <file src=".\licenses\LICENSE.TXT" target="" />
+    <file src=".\lib\netstandard2.0\*.dll" target="lib\netstandard2.0"></file>
+    <file src=".\lib\net45\*.dll" target="lib\net45"></file>
+  </files>
+</package>

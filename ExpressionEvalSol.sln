@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevApp", "DevApp\DevApp.csproj", "{290BB00A-7FC0-4008-BCC3-4A3D73FB0852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_BuildNuget", "_BuildNuget", "{3B8FDA3C-2B78-4A9E-AC30-D3FBA3A86242}"
+	ProjectSection(SolutionItems) = preProject
+		_BuildNuget\readme.txt = _BuildNuget\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{CDF8F0B0-286F-4EE8-A395-23ADDD61E6B4}"
+	ProjectSection(SolutionItems) = preProject
+		_BuildNuget\Model\Pierlam.ExpressionEval.nuspec = _BuildNuget\Model\Pierlam.ExpressionEval.nuspec
+		_BuildNuget\Model\Pierlam.ExpressionEval.png = _BuildNuget\Model\Pierlam.ExpressionEval.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "licenses", "licenses", "{1E871FE1-09C0-475C-8051-168255979871}"
+	ProjectSection(SolutionItems) = preProject
+		_BuildNuget\Model\licenses\LICENSE.TXT = _BuildNuget\Model\licenses\LICENSE.TXT
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pierlam.ExpressionEval", "Pierlam.ExpressionEval\Pierlam.ExpressionEval.csproj", "{C5160EDA-DA35-4213-8283-4426F7C9F16E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3511135-3664-4A7B-9827-4ED98891CE0D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierlam.ExpressionEval.Test", "Pierlam.ExpressionEval.Test\Pierlam.ExpressionEval.Test.csproj", "{E807C133-1C78-4D8C-858A-5312DC095381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290BB00A-7FC0-4008-BCC3-4A3D73FB0852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290BB00A-7FC0-4008-BCC3-4A3D73FB0852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290BB00A-7FC0-4008-BCC3-4A3D73FB0852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290BB00A-7FC0-4008-BCC3-4A3D73FB0852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5160EDA-DA35-4213-8283-4426F7C9F16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5160EDA-DA35-4213-8283-4426F7C9F16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5160EDA-DA35-4213-8283-4426F7C9F16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5160EDA-DA35-4213-8283-4426F7C9F16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E807C133-1C78-4D8C-858A-5312DC095381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E807C133-1C78-4D8C-858A-5312DC095381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E807C133-1C78-4D8C-858A-5312DC095381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E807C133-1C78-4D8C-858A-5312DC095381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF8F0B0-286F-4EE8-A395-23ADDD61E6B4} = {3B8FDA3C-2B78-4A9E-AC30-D3FBA3A86242}
+		{1E871FE1-09C0-475C-8051-168255979871} = {CDF8F0B0-286F-4EE8-A395-23ADDD61E6B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7EBA3D0-F5EC-4281-B897-F373A8BCCA6C}
+	EndGlobalSection
+EndGlobal
