@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Pierlam.ExpressionEval</id>
-    <version>0.8</version>
+    <version>0.8.1</version>
     <title>Expression Evaluator Component</title>
     <authors>Pierlam Project</authors>
     <owners>Pierlam Project</owners>
@@ -24,7 +24,7 @@
     </summary>
     
     <!-- Any details about this particular release -->
-    <releaseNotes>Now full open-source and free of charge. Web site is: https://github.com/Pierlam/ExpressionEval/.</releaseNotes>
+    <releaseNotes>Now open-source with full fonctionnalities. Web site is: https://github.com/Pierlam/ExpressionEval/</releaseNotes>
     
     <tags>csharp netstandard dotnet library api expression evaluator eval comparison logical calculation function callback</tags>
 
