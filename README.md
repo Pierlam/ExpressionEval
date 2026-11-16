@@ -1,11 +1,22 @@
 # Expression evaluator .NET component
 
-ExpressionEval is an Expression Evaluator back-office component. Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison (=, <>, <=, <, >, >=) or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... This component is a library provided in .NET Standard 2.0 and in .NET Framework 4.5.
+
+**ExpressionEval** is an expression evaluation component designed for backend applications.
+
+Expressions are provided as raw strings and can be easily evaluated. The component supports:
+
+- **Logical operators:** `Or`, `And`, `Not`
+- **Comparison operators:** `=`, `<>`, `<=`, `<`, `>`, `>=`
+- **Arithmetic operators:** `+`, `-`, `*`, `/`
+- **Variables and function calls**
+
+The component is configurable, with options such as the decimal separator, string delimiters, and more.
+
+ExpressionEval is available as a .NET library targeting **.NET 8 and .NET 10**.
 
 The library on nuget: https://www.nuget.org/packages/Pierlam.ExpressionEval/
 
 The component is open-source.
-
 
 To have code samples, see: https://github.com/Pierlam/ExpressionEvalSamples
 
