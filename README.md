@@ -1,6 +1,5 @@
 # Expression evaluator .NET component
 
-
 **ExpressionEval** is an expression evaluation component designed for backend applications.
 
 Expressions are provided as raw strings and can be easily evaluated. The component supports:
@@ -14,9 +13,11 @@ The component is configurable, with options such as the decimal separator, strin
 
 ExpressionEval is available as a .NET library targeting **.NET 8 and .NET 10**.
 
+The source code: https://github.com/Pierlam/ExpressionEval
+
 The library on nuget: https://www.nuget.org/packages/Pierlam.ExpressionEval/
 
-The component is open-source.
+The component is free and open-source.
 
 To have code samples, see: https://github.com/Pierlam/ExpressionEvalSamples
 
