@@ -1,9 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.9</Version>
+	<Title>ExpressionEval is an Expression Evaluator back-office component.</Title>
+	<Company>Pierlam Project</Company>
+	<Description>
+		Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... 
+	</Description>
+	<PackageProjectUrl>https://github.com/Pierlam/ExpressionEval</PackageProjectUrl>
+	<PackageIcon>Pierlam.ExpressionEval_icon.jpg</PackageIcon>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/Pierlam/ExpressionEval</RepositoryUrl>
+	<PackageTags>expression;evaluator;eval;backoffice;calculation;math;comparison;boolexpression</PackageTags>
+	<Authors>Pierlam</Authors>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Pierlam.ExpressionEval_icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
