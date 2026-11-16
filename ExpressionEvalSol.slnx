@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DevApp/DevApp.csproj" />
+  <Project Path="Pierlam.ExpressionEval.Test/Pierlam.ExpressionEval.Test.csproj" />
+  <Project Path="Pierlam.ExpressionEval/Pierlam.ExpressionEval.csproj" />
+</Solution>

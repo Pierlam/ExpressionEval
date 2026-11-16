@@ -1,26 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
-    <Version>0.8.1</Version>
-    <Authors>Pierlam Software</Authors>
-    <Company>Pierlam Software</Company>
-    <Description>Expression Evaluator component.</Description>
-    <SignAssembly>false</SignAssembly>
-    <AssemblyVersion>0.8.1.0</AssemblyVersion>
-    <FileVersion>0.8.1.0</FileVersion>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.9</Version>
+	<Title>ExpressionEval is an Expression Evaluator back-office component.</Title>
+	<Company>Pierlam Project</Company>
+	<Description>
+		Expression are provided as raw string. It enables you to evaluate easily: logical (Or, And and Not), comparison or calculation (+, -, *, /) in an application. Possible to use variable and function call. The component is configurable: double decimal separator, string tag,... 
+	</Description>
+	<PackageProjectUrl>https://github.com/Pierlam/ExpressionEval</PackageProjectUrl>
+	<PackageIcon>Pierlam.ExpressionEval_icon.jpg</PackageIcon>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/Pierlam/ExpressionEval</RepositoryUrl>
+	<PackageTags>expression;evaluator;eval;backoffice;calculation;math;comparison;boolexpression</PackageTags>
+	<Authors>Pierlam</Authors>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
-    <PackageReference Include="NuGet.CommandLine" Version="5.6.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\Pierlam.ExpressionEval_icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
